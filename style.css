@@ -37,7 +37,8 @@ a{
     top:0; /* pour mettre la navbar tout en haut*/
     width:100%; /* pour qu'elle s'applique sur toute la longueur*/
     background:black;
-    mix-blend-mode: difference; /*pour faire apparaitre une bande noire au bout du scroll sur la navbar*/
+    background: rgba(0, 0, 0, 0.6);
+    /*mix-blend-mode: difference; pour faire apparaitre une bande noire au bout du scroll sur la navbar*/
 }
 
 .logo a{
@@ -158,7 +159,6 @@ h1 span:last-child{
     left:0;
 
 } */
-
 
 @media screen and (max-width: 600px) {
     body{
@@ -606,8 +606,7 @@ font-size: 1.6em;
 }
 .social h4{
     color: #fafafa;
-}
-    
+    }
 .social .iconS{
     display: flex;
 }
@@ -634,3 +633,40 @@ font-size: 1.6em;
 .info, .social, .location, .title{
     line-height: 2.1;
 }
+
+
+
+
+
+@media screen and (max-width: 600px) {
+    footer{
+        display: block; 
+        height:fit-content;
+        text-align: center;
+        
+    }
+    .logoF, .iconS{
+        text-align: center;
+    }
+    .location, .title, .info, .social{
+        margin: auto;
+        margin-top: 40px;
+    } 
+    .icon{
+        margin: auto;
+    } 
+    .location {
+    max-width: 80%;
+    }
+
+    .icon {
+    height: 50px;
+    width: 50px;
+
+
+
+
+}
+
+
+
