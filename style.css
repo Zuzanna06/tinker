@@ -646,8 +646,15 @@ font-size: 1.6em;
         
     }
     .logoF, .iconS{
+        margin: auto;
         text-align: center;
     }
+    .logoF{
+        padding-top: 20px;
+        font-size: 250%;
+
+    }
+
     .location, .title, .info, .social{
         margin: auto;
         margin-top: 40px;
@@ -660,10 +667,9 @@ font-size: 1.6em;
     }
 
     .icon {
-    height: 50px;
-    width: 50px;
-
-
+        margin-bottom: 20px;
+        height: 50px;
+        width: 50px;
 
 
 }
